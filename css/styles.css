@@ -160,7 +160,7 @@ main {
 }
 main h2 {
   color: #fff;
-  font-size: clamp(2rem, 1.5rem + 2.5vw, 4rem);
+  font-size: clamp(2rem, 1.5rem + 2vw, 4rem);
   text-align: center;
   letter-spacing: 1.5px;
   filter: drop-shadow(0 0 6px var(--blue));
@@ -185,6 +185,23 @@ main h2 {
 }
 .product-lineup li:nth-child(even) {
   border-left: 1px solid var(--blue-light);
+}
+.btn-row {
+  text-align: center;
+  margin: 3rem 0;
+}
+.btn-register {
+  border: 1px solid var(--blue-light);
+  padding: 1rem 3rem;
+  color: var(--blue-light);
+  font-size: clamp(2rem, 1.5rem + 2.5vw, 2.5rem);
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s linear;
+}
+.btn-register:hover {
+  background: #fff;
+  color: var(--blue-dark);
 }
 
 /* SHOW-INFO
@@ -408,6 +425,9 @@ footer {
   }
 }
 @media (max-width: 640px) {
+  .header-inner {
+    width: 100%;
+  }
   .smi-logo {
     width: 220px;
   }
