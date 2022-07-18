@@ -233,8 +233,10 @@ main h2 {
   font-weight: bold;
 }
 
-.show-info-div .context {
-  
+.show-info-div .context span {
+  display: block;
+  font-weight: 100;
+  color: #ddd;
 }
 .show-info-div .context.large {
   font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
