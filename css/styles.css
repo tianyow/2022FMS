@@ -282,6 +282,7 @@ main h2 {
 .keynote-row .datetime {
   border-right: 1px solid var(--blue-light);
   padding-right: 2rem;
+  min-width: 150px;
 }
 .keynote-row .datetime .date {
   font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
@@ -450,6 +451,7 @@ footer {
   }
   .keynote-row .datetime {
     padding-right: 1rem;
+    min-width: 120px;
   }
   .keynote-row .session-info {
     flex-direction: column;
